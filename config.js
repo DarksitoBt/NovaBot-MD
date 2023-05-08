@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51960578499', 'NovaBot-MD', true],
+  ['51960578499', 'PINGONBOT', true],
   ['593968585383'],
   ['5214531173598'],
   ['50763596565'],
@@ -56,8 +56,8 @@ global.imagen1 = ['./media/menu1.jpg']
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 // Sticker WM
-global.packname = 'NovaBot-MD'
-global.author = 'NovaBot-MD'
+global.packname = 'NPINGONBOT'
+global.author = 'PINGONBOT'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -71,12 +71,12 @@ global.faceb = 'https://facebook.com/groups/872989990425789/'
 
 global.vs = '1.5.0'
 
-global.lb = 'ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ'
+global.lb = 'PINGONBOT'
 global.lolibot = lb
 
-global.dygp = 'https://chat.whatsapp.com/I3qjtQABJPaB65i2uhGe81' //grupo del bot
+global.dygp = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //grupo del bot
 global.nn = 'https://chat.whatsapp.com/HZmxLIsZRbYE37xRV9XQYU' //Grupo Colaboración 
-global.nna = 'https://chat.whatsapp.com/JESaesjOEcB6wnGX0QYT9o' //UPDATE
+global.nna = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //UPDATE
 
 global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
 
