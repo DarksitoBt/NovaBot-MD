@@ -16,7 +16,7 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('NovaBot-MD', {
+say('PINGONBOT', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
