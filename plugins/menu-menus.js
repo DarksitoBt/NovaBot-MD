@@ -46,7 +46,7 @@ const defaultMenu = {
 ║ ᴇʟ ʙᴏᴛ ᴇs ɴᴜᴇᴠᴏ ᴛᴏᴅᴀᴠɪᴀ ᴇsᴛᴀ ᴅᴇsᴀʀʀᴏʟʟᴀᴅᴏ,
 ║ sɪ ᴘʀᴇsᴇɴᴛᴀ ᴀʟɢᴜɴ ᴘʀᴏʙʟᴇᴍᴀ,
 ║ ᴄᴏᴍᴜɴɪᴄᴀʀsᴇ ᴄᴏɴ ᴍɪ ᴄʀᴇᴀᴅᴏʀ
-║ ᴇsᴄʀɪʙɪʀ !creador
+║
 ║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ║ʙᴏᴛ sɪᴍᴘʟᴇ ᴄᴏɴ ᴘᴏᴄᴏs ᴄᴏᴍᴀɴᴅᴏs
 ║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
@@ -162,7 +162,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '*ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ*', pp, [
+    conn.sendButton(m.chat, text.trim(), '*PINGONBOT*', pp, [
       ['Info', `${_p}botinfo`],
       ['Grupos', `${_p}grupos`]
     ],m, rpl)
