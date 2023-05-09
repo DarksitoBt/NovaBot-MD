@@ -1,7 +1,7 @@
 { 
-    "name": "NovaBot-MD",
+    "name": "PINGONBOT",
     "version": "2.2.2",
-    "description": "Bot del WhatsApp simple",
+    "description": "Bot de WhatsApp simple",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -26,7 +26,7 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/elrebelde21/NovaBot-MD",
+    "homepage": "https://github.com/DarksitoBt/NovaBot-MD",
     "author": {
         "name": "elrebelde21"
     },
