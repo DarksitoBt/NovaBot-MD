@@ -85,7 +85,7 @@ const connectionOptions = {
   printQRInTerminal: true,
   auth: state,
   logger: pino({ level: 'silent'}),
-  browser: ['NovaBot-MD','Safari','1.0.0']
+  browser: ['PINGONBOT','Safari','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -162,10 +162,10 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ Hola @user ¿COMO ESTAS?😃\n┆——————«•»——————\n┆ Bienvenido A @subject\n┆——————«•»——————\n┆un gusto conocerte amig@ 🤗\n┆Recuerda leer las reglas del grupo\n┆para no tener ningun problema 🧐\n┖━─━─━─━─━─━─━─━─━┚\n\n@desc'
-  conn.bye = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ adiós @user se fue\n┆ un fan del bts\n  ┖━─━─━─━─━─━─━─━─━┚'
+  conn.welcome = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ Hola @user ¿Me la xupas?😃\n┆——————«•»——————\n┆ Bienvenido A @subject\n┆——————«•»——————\n┆igual un gusto 🤗\n┆Recuerda leer las reglas del grupo\n┆para no tener ningun problema 🧐\n┖━─━─━─━─━─━─━─━─━┚\n\n@desc'
+  conn.bye = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ adiós @user se fue\n┆ un fan de la tetona tower\n  ┖━─━─━─━─━─━─━─━─━┚'
   conn.spromote = '@user ahora eres admin del grupo'
-  conn.sdemote = '@user joderte ya no eres admin'
+  conn.sdemote = '@user fac ya no eres admin'
   conn.sDesc = 'La descripción del grupo fue cambiada nueva descripción es\n@desc'
   conn.sSubject = 'El nombre del grupo fue cambiado nuevos nombre es\n@subject'
   conn.sIcon = 'la foto del grupo fue cambiada con éxito'
