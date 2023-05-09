@@ -14,14 +14,14 @@ return !1
     
 if (isToxic && chat.antitoxic && !isOwner && !isAdmin) {
 user.warn += 1
-if (!(user.warn >= 4)) await conn.sendButton(m.chat,`${user.warn == 1 ? `Hola *@${m.sender.split`@`[0]}*` : `Hola @${m.sender.split`@`[0]}`}, decir la palabra *(${isToxic})* está prohibido en este bot🤬!!`, `ADVERTENCIA\n⚠️ *${user.warn}/4*\n\n${wm}`, img, [
+if (!(user.warn >= 4)) await conn.sendButton(m.chat,`${user.warn == 1 ? `Hola *@${m.sender.split`@`[0]}*` : `Mno @${m.sender.split`@`[0]}`}, escribir la palabra *(${isToxic})* está prohibido en este bot🤬!!`, `ADVERTENCIA\n⚠️ *${user.warn}/4*\n\n${wm}`, img, [
 [`😭 LO SIENTO`, '.ok'],
 ['☢️ DESACTIVA ANTITOXIC', '.disable antitoxic'],
 ['☘️ MENU', '/menu']], false, { mentions: [m.sender] })}
 
 if (user.warn >= 4) {
 user.warn = 0
-await m.reply(`Hola @${m.sender.split`@`[0]}* superaste las 5 advertencias serás bloqueado y eliminado de este grupo 😐`, false, { mentions: [m.sender] })
+await m.reply(`Causa @${m.sender.split`@`[0]}* superaste las 5 advertencias serás bloqueado y eliminado de este grupo 😐`, false, { mentions: [m.sender] })
 user.banned = true
 await this.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 //await this.updateBlockStatus(m.sender, 'block')
