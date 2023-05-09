@@ -75,7 +75,7 @@ global.lb = 'PINGONBOT'
 global.lolibot = lb
 
 global.dygp = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //grupo del bot
-global.nn = 'https://chat.whatsapp.com/HZmxLIsZRbYE37xRV9XQYU' //Grupo Colaboración 
+global.nn = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //Grupo Colaboración 
 global.nna = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //UPDATE
 
 global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
