@@ -118,7 +118,7 @@ async function clearTmp() {
 }
 setInterval(async () => {
 	var a = await clearTmp()
-	console.log(chalk.cyan(`╭━─━─━─≪🔆≫─━─━─━╮\n│SE LIMPIO LA CARPETA TMP CORRECTAMENTE\n╰━─━─━─≪🔆≫─━─━─━╯`))
+	console.log(chalk.cyan(`╭━─━─━─≪🔆≫─━─━─━╮\n│SE LIMPIO LA CARPETA TMP CORRECTAMENTE xd\n╰━─━─━─≪🔆≫─━─━─━╯`))
 }, 60000) //1 min
 
 async function connectionUpdate(update) {
