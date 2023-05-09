@@ -25,13 +25,10 @@ let uptime = clockString(_uptime)
 
 const sections = [  
 {
-title: `ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ ✨ sᴇʟᴇᴄᴄɪᴏɴᴇs ᴀǫᴜɪ`,
+title: `PINGONBOT ✨ sᴇʟᴇᴄᴄɪᴏɴᴇs ᴀǫᴜɪ`,
 rows: [
-       {title: "ɪɴғᴏ", description: "ᴘᴀʀᴀ ᴠᴇᴢ ᴇʟ ᴄᴜᴀɴᴛᴏs ɢʀᴜᴘᴏs ᴇsᴛᴀ ᴇʟ ʙᴏᴛ", rowId: `${usedPrefix}grouplist`},
-        {title: "ᴄʀᴇᴀᴅᴏʀ", description: "ɴᴜᴍᴇʀᴏ ᴅᴇʟ ᴄʀᴇᴀᴅᴏʀ", rowId: `${usedPrefix}owner`},
         {title: "ᴍᴇɴᴜᴄᴏᴍᴘʟᴇᴛᴏ", description: "ᴘᴀʀᴀ ᴠᴇᴢ ᴛᴏᴅᴀ ʟᴀs ғᴜɴᴄɪᴏɴᴇs ᴅᴇʟ ʙᴏᴛ", rowId: `${usedPrefix}menucompleto`},
       {title: "ᴇsᴛᴀᴅᴏ", description: "ᴘᴀʀᴀ sᴀʙᴇʀ sɪ ᴇʟ ʙᴏᴛ ᴇsᴛᴀ ᴀᴄᴛɪᴠᴏ", rowId: `${usedPrefix}estado`},
-      {title: "ɢʀᴜᴘᴏs", description: "ǫᴜᴇ ᴍᴜᴇsᴛʀᴀ ʟᴏs ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇʟ ʙᴏᴛ", rowId: `${usedPrefix}grupos`},
       {title: "ᴘɪɴɢ", description: "ᴍᴜᴇsᴛᴀ ʟᴀs ᴠᴇʟᴏᴄɪᴅᴀᴅ ᴅᴇʟ ʙᴏᴛ", rowId: `${usedPrefix}ping`},
       {title: "ᴇɴᴀʙʟᴇ", description: "ᴘᴀʀᴀ ᴀᴄᴛɪᴠᴀ ᴏ ᴅᴇsᴀᴄᴛɪᴠᴀʀ ᴇsᴛᴀ ᴏᴘᴄɪᴏɴᴇs", rowId: `${usedPrefix}enable`},
       {title: "ʜɪᴅᴇᴛᴀɢ", description: "ᴘᴀʀᴀ ᴍᴇɴᴄɪᴏɴᴀʀ ᴀ ᴛᴏᴅᴏs ᴄᴏɴ ᴜɴ ᴛᴇxᴛᴏ", rowId: `${usedPrefix}hidetag`},
@@ -43,7 +40,7 @@ let name = await conn.getName(m.sender)
 const listMessage = {
 text: `~ HOLA ${taguser}*`, footer: `
 ╭┄〔 ≪ •🌐• ≫ 〕┄⊱
-┆📡 ʙɪᴇɴᴠᴇɴɪᴅᴏ ᴀʟ ᴍᴇɴᴜ ʟɪsᴛᴀ
+┆📡ESTE ES MI MENÚ
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ┆🎁 ɪɴғᴏ  ᴅᴇʟ ʙᴏᴛ 🎁
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
@@ -61,7 +58,7 @@ text: `~ HOLA ${taguser}*`, footer: `
 ┆□ 💎 ᴅɪᴀᴍᴀɴᴛᴇs: ${diamond}
 ┆□ 🧰 ᴇxᴘᴇʀɪᴇɴᴄɪᴀ: ${exp}
 └────ׂ─ׂ─ׂ─ׂ─────
-*ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ ✨*`, pp,
+*PINGONBOT ✨*`, pp,
 title: null,
 buttonText: "🅗🅐🅖🅐 🅒🅛🅘🅒🅚 🅐🅠🅤🅘", 
 sections }
