@@ -51,7 +51,7 @@ global.APIKeys = {
   'https://violetics.pw': 'beta',
 }
 
-global.imagen1 = ['./media/menu1.jpg']
+global.imagen1 = ['https://raw.githubusercontent.com/DarksitoBt/NovaBot-MD/main/src/e05904e2-daf1-4f49-b2f7-c5e8fdd0aad4.jpg']
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -78,7 +78,7 @@ global.dygp = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //grupo del bot
 global.nn = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //Grupo Colaboración 
 global.nna = 'https://chat.whatsapp.com/HHLr7zdjxnkA19wewSDk9j' //UPDATE
 
-global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
+global.fglog = 'https://raw.githubusercontent.com/DarksitoBt/NovaBot-MD/main/src/e05904e2-daf1-4f49-b2f7-c5e8fdd0aad4.jpg' 
 
 global.multiplier = 69 
 global.maxwarn = '4' // máxima advertencias
