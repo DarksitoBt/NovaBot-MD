@@ -56,18 +56,18 @@ global.imagen1 = ['./media/menu1.jpg']
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 // Sticker WM
-global.packname = 'NPINGONBOT'
+global.packname = 'PINGONBOT'
 global.author = 'PINGONBOT'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.fgig = 'https://github.com/elrebelde21/NovaBot-MD'
+global.fgig = '#'
  
 global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
 
-global.fgpyp = 'tiktok.com/@thelolibot_md'
+global.fgpyp = '#'
 
-global.faceb = 'https://facebook.com/groups/872989990425789/'
+global.faceb = '#'
 
 global.vs = '1.5.0'
 
