@@ -29,7 +29,7 @@ let handler = async (m, {conn, text }) => {
   }).filter(v => v).join('\n\n________________________\n\n')
   conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, m)
 }
-handler.help = ['ytsearch'] 
+//handler.help = ['ytsearch'] 
 handler.tags = ['downloader']
 handler.command = ['ytsearch', 'yts'] 
 handler.register = true
