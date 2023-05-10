@@ -47,8 +47,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 ]
 
 const listMessage = {
-//body = text
-  body: `┆ᴘᴏʀ ғᴀᴠᴏʀ sᴇʟᴇᴄᴄɪᴏɴᴀ ᴛᴜ ᴇᴅᴀᴅ ᴘᴜʟsᴀɴᴅᴏ ᴇʟ ʙᴏᴛᴏɴ...\n┆ᴛᴜ ɴᴏᴍʙʀᴇ: ${conn.getName(m.sender)}\n┆ǫᴜɪᴇʀᴇs ᴘᴏɴᴇʀ ᴏᴛʀᴏ ᴍᴏᴍʙʀᴇ?\n┆ᴇsᴄʀɪʙɪ *${usedPrefix + command} Nombre.Años*\n╰──────•◈•───────╯`,
+  text: `┆ᴘᴏʀ ғᴀᴠᴏʀ sᴇʟᴇᴄᴄɪᴏɴᴀ ᴛᴜ ᴇᴅᴀᴅ ᴘᴜʟsᴀɴᴅᴏ ᴇʟ ʙᴏᴛᴏɴ...\n┆ᴛᴜ ɴᴏᴍʙʀᴇ: ${conn.getName(m.sender)}\n┆ǫᴜɪᴇʀᴇs ᴘᴏɴᴇʀ ᴏᴛʀᴏ ᴍᴏᴍʙʀᴇ?\n┆ᴇsᴄʀɪʙɪ *${usedPrefix + command} Nombre.Años*\n╰──────•◈•───────╯`,
   footer: global.wm,
   title: "╭──────• ʀᴇɢɪsᴛʀᴏ •──────╮",
   buttonText: "Pulsa Aqui!",
@@ -73,8 +72,8 @@ const listMessage = {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
 global.db.data.users[m.sender].limit += 5
 global.db.data.users[m.sender].exp += 400
-//say borrar
-  let caption = say `┏──━∞ *ʀᴇɢɪsᴛʀᴀᴅᴏ* ∞─━─┓ 
+	
+  let caption = `┏──━∞ *ʀᴇɢɪsᴛʀᴀᴅᴏ* ∞─━─┓ 
 ┃ *ɴᴏᴍʙʀᴇ* 
 ┃➠ ${name}
 ┃• • • • • • • • • • • • • • • • • • •
