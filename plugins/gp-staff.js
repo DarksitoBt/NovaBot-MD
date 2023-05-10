@@ -11,7 +11,7 @@ let text = `
 ╠  ADMINS
 ╠ 🔸️ ${listAdmin}
 ╚═〘 _*PINGONBOT*_ 〙
-[ ⚠ ️] ᴜsᴀʀ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴄᴜᴀɴᴅᴏ sᴇ ᴛʀᴀᴛᴇ ᴅᴇ ᴜɴᴀ ᴇᴍᴇʀɢᴇɴᴄɪᴀ
+[ ⚠ ️] Si lo usas pa joder te doy ban ctm
 `.trim()
 conn.sendFile(m.chat, pp, 'staff.png', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
