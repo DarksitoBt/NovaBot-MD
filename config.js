@@ -63,7 +63,7 @@ global.author = 'PINGONBOT'
 
 global.fgig = '#'
  
-global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
+global.yt = '#'
 
 global.fgpyp = '#'
 
