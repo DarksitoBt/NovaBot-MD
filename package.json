@@ -28,11 +28,11 @@
     ],
     "homepage": "https://github.com/DarksitoBt/NovaBot-MD",
     "author": {
-        "name": "elrebelde21"
+        "name": "darksito"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/elrebelde21/NovaBot-MD.git"
+        "url": "git+https://github.com/DarksitoBt/NovaBot-MD.git"
     },
     "bugs": {
         "url": "https://github.com/elrebelde21/NovaBot-MD/issues"
