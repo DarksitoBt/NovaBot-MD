@@ -7,7 +7,7 @@ const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadm
 let text = `
 ╔══✪〘 *sᴛᴀғғ* 〙✪══
 ╠ INVOCANDO A LAS MOSQUETERAS:
-╠ ➥ GRUPOS _${groupMetadata.subject}_
+╠ ➥ GRUPO _${groupMetadata.subject}_
 ╠  ADMINS
 ╠ 🔸️ ${listAdmin}
 ╚═〘 _*PINGONBOT*_ 〙
