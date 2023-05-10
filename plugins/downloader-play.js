@@ -1,5 +1,5 @@
 
-//import yts from 'yt-search'
+import yts from 'yt-search'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 	
 	if (!text) throw `Que esta buscado? ingrese el nombre del tema\n\nEjemplo *${usedPrefix + command}* ozuna`
